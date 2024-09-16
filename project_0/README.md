@@ -29,8 +29,9 @@
 
 
 ### Краткая информация о данных
-.py - файл python
-.ipynb - файл Jupyter Notebook
+- .py - файл python
+- .ipynb - файл Jupyter Notebook
+- .md - файл для чтения
 
   
 :arrow_up:[к оглавлению](https://github.com/ret4ed/Sf_DS_game_1/blob/main/project_0/README.md#Оглавление)
