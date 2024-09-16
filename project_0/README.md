@@ -38,9 +38,9 @@
 
 
 ### Этапы работы над проектом  
-- 1 Этап: Создание первой версии игры (game)
-- 2 Этап: Создание второй версии игры (game_v2)
-- 3 Этап: Создание третьей версии игры (game_v3)
+- 1 Этап: Создание первой версии игры [game](https://github.com/ret4ed/Sf_DS_game_1/blob/main/project_0/game.py)
+- 2 Этап: Создание второй версии игры [game_v2](https://github.com/ret4ed/Sf_DS_game_1/blob/main/project_0/game_v2.py)
+- 3 Этап: Создание третьей версии игры [game_v3](https://github.com/ret4ed/Sf_DS_game_1/blob/main/project_0/game_v3.py)
 - 4 Этап: Загрузка всех версий на GitHub и написание сопроводительного текста
 
 :arrow_up:[к оглавлению](https://github.com/ret4ed/Sf_DS_game_1/blob/main/project_0/README.md#Оглавление)
