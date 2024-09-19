@@ -16,7 +16,7 @@ def random_predict(number:int=1) -> int:
     """
     count = 0
     minimum = 1
-    maximum = 100
+    maximum = 101
     predict_number = maximum // 2 #Предполагаемое число
 
 
@@ -43,15 +43,24 @@ def score_game(random_predict) -> int:
     
     count_list = [] #Список для сохранения количества попыток
     np.random.seed(1) #Фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 100, size=(1000)) #загадали список чисел
+    random_array = np.random.randint(1, 101, size=(1000)) #загадали список чисел
 
     for number in random_array:
         count_list.append(random_predict(number))
         
     score = int(np.mean(count_list)) #Находим среднее количество попыток
+    min_score = int(np.min(count_list)) #Находим минимальное количество попыток
+    max_score = int(np.max(count_list)) #Находим максимальное количество попыток
     
-    print(f'Ваш алгоритм угадывает число в среднем за: {score} попыток')
-    return(score)
+    if min_score == 0: #Если минимальное количество попыток 0, корректируем результаты
+        score += 1
+        min_score += 1
+        max_score += 1
+    
+    print(f'Ваш алгоритм угадывает число в среднем за: {score} попыток \n'
+          f'Максимальное количество попыток {max_score}. Минимальное количество попыток {min_score}'
+          )
+    return(score, max_score, min_score)
 
 #RUN
 if __name__ == '__main__':
