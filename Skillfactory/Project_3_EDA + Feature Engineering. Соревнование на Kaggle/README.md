@@ -47,12 +47,12 @@
 ## Используемые версии
 * Python (3.11.9):
     * [pandas (2.2.3)](https://pandas.pydata.org)
-    * [numpy (1.24.2)] (https://numpy.org/devdocs/release/1.24.2-notes.html)
-    * [matplotlib (3.9.2)] (https://matplotlib.org/3.9.2/users/getting_started/index.html)
-    * [matplotlib-inline (0.1.7)] (https://anaconda.org/conda-forge/matplotlib-inline)
-    * [seaborn (0.13.2)] (https://seaborn.pydata.org/)
-    * [category_encoders (2.8.1)] (https://contrib.scikit-learn.org/category_encoders/)
-    * [scikit-learn (1.7.0)] (https://scikit-learn.org/stable/whats_new/v1.7.html)
+    * [numpy (1.24.2)](https://numpy.org/devdocs/release/1.24.2-notes.html)
+    * [matplotlib (3.9.2)](https://matplotlib.org/3.9.2/users/getting_started/index.html)
+    * [matplotlib-inline (0.1.7)](https://anaconda.org/conda-forge/matplotlib-inline)
+    * [seaborn (0.13.2)](https://seaborn.pydata.org/)
+    * [category_encoders (2.8.1)](https://contrib.scikit-learn.org/category_encoders/)
+    * [scikit-learn (1.7.0)](https://scikit-learn.org/stable/whats_new/v1.7.html)
 
 :arrow_up:[к оглавлению](#Оглавление)
 
