@@ -1,6 +1,6 @@
 <center> <img src = https://www.autoblog.com/.image/NzowMDAwMDAwMDAxMTEyNzkw/photo-of-taxi-and-new-york-taxi-and-new-york-city-and-new-york-skyline.jpg alt="drawing" style="width:500px"> </center>
 
-# <center> Проект: Задача регрессии. </center>
+# <center> Проект: Задача регрессии. Предсказание общей продолжительности поездки на такси в Нью-Йорке. </center>
 
 ## Оглавление
 1. [Задача проекта](#задача-проекта)
