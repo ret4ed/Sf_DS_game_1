@@ -1,0 +1,4 @@
+catboost_info/
+*.csv
+events_log.parquet
+ground_truth_hidden.parquet
